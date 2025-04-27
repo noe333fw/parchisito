@@ -1,0 +1,593 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: Arial;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+}
+
+header{
+    background-color: #033832;
+    max-width: 1000%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px 20px;
+    gap: 16px;
+    color: #EECE94;
+    font-family: Arial;
+
+}
+
+header nav ul{
+    color: #EECE94;
+    font-family: Arial;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: unset;
+    color: #EECE94;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+    text-decoration-thickness: 6px;
+    text-decoration-color: white;
+}
+
+.info{
+    padding: 64px 40px;
+    display: flex;
+    gap: 136px;
+
+}
+
+.testo{
+    width: 50%;
+
+} 
+
+.testo h1{
+    color: #033832;
+    font-family: Arial;
+    font-size: 64px;
+    font-style: normal;
+    margin: auto;
+    margin-top: 200px;
+  
+}
+ .testo p{
+
+    color: #5F351F;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+margin: auto;
+ 
+
+}
+
+.img{
+    width: 50%;
+    border-radius: 326px 326px 0px 0px;
+}
+.img svg{
+    width: 100px;
+    height: 700px;
+   
+}
+ .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 40px;
+    gap: 32px;
+} 
+
+.card h3{
+    color: #EECE94;
+    font-family: Arial;
+    font-size: 24px;
+    background-color: #387B5C;
+    margin: 0;
+    padding: 34px;
+    text-align: center;
+   
+}
+.card h3 a{
+    color: #EECE94;
+    font-family: Arial;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: unset;
+
+}
+
+.card img{
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+
+}
+
+.parchi{
+    display: flex;
+    gap: 136;
+    padding: 64px 40px;
+}
+
+.img1{
+    width: 50%;
+    margin: 0;
+} 
+
+.testo1{
+width: 50%;
+background-color: #033832;
+padding: 32px 40px;
+
+}
+
+.testo1 h2{
+    color: #EECE94;
+font-family: Arial;
+font-size: 64px;
+font-style: bold;
+margin-bottom: 30px;
+margin-top: 80px;
+
+} 
+
+.testo1 p{
+    color: #EECE94;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+margin-left: 10 px;
+}
+
+.testo1 SVG{
+width: 300px;
+}
+
+.footer {
+    background-color: #033832;
+    padding: 20px 40px;
+    color: #EECE94;
+    font-family: Arial;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    font-family: Arial;
+
+  }
+  
+  .footer-links a {
+    margin-left: 20px;
+    color: #EECE94;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial;
+
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+  .info2{
+    padding: 64px 40px;
+    display: flex;
+    gap: 136px;
+
+}
+
+.testo2{
+    width: 50%;
+
+} 
+
+.testo2 h1{
+    color: #033832;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-style: bold;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 30px;
+  
+}
+ .testo2 p{
+
+    color: #5F351F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+margin: auto;
+ 
+
+}
+
+.img2{
+    width: 50%;
+    border-radius: 326px 326px 0px 0px;
+}
+
+.parchi2{
+    display: flex;
+    gap: 136;
+    padding: 64px 40px;
+}
+
+.img3{
+    width: 50%;
+    margin: 0;
+    height: 400px;
+} 
+.img3 img{
+    margin: 0;
+    height: 400px;
+    width: 700px;
+} 
+
+.testo3{
+width: 50%;
+background-color: #033832;
+padding: 32px 40px;
+
+}
+
+.testo3 h2{
+    color: #EECE94;
+font-family: Arial;
+font-size: 24px;
+font-style: bold;
+align-content: center;
+margin-bottom: 5%;
+
+} 
+
+.testo3 p{
+    color: #EECE94;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+align-content: center;
+margin-right: 60px;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 64px 40px;
+    gap: 32px;
+    padding-bottom: 100px;
+
+}.card1 h2{
+    color: #033832;
+font-family: Arial;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   
+} .card1 h4{
+    color: #5F351F;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 424px;
+height: 120px;
+flex-shrink: 0;
+
+}
+
+.card1 h3{
+    color: #EECE94;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #387B5C;
+    margin: 0;
+    padding: 20px ;
+   
+} .tex{
+    background-color: #387B5C;
+    margin: 0;
+    padding: 20px ; 
+    
+}
+.tex h3{
+    color: #EECE94;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #387B5C;
+   margin-bottom: 0;
+   padding-bottom: 0px;
+    
+    
+} .tex p{
+    color: #EECE94;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    background-color: #387B5C;
+   margin-top: 0; 
+    padding: 20px ; 
+}
+
+.card1 img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+
+}
+
+.parchi3{
+    display: flex;
+    gap: 136;
+    padding: 64px 40px;
+}
+
+.img4{
+    width: 50%;
+    margin: 0;
+    margin-top: 4%;
+} 
+
+.testo4{
+width: 50%;
+padding: 32px 40px;
+
+}
+
+.testo4 h2{
+    color: #033832;
+font-family: Arial;
+font-size: 30px;
+font-style: bold;
+margin-bottom: 5% ;
+align-content: center;
+
+
+} 
+
+.testo4 p{
+    color: #111111;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+margin-left: 10 px;
+
+}
+
+.parchi4{
+    display: flex;
+    gap: 136;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.img5{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    height: 500px;
+    margin-top: 3%;
+} .img5 img{
+
+    height: 500px;
+    object-fit: cover;
+
+} 
+
+.testo5{
+width: 50%;
+padding: 32px 40px;
+
+}
+
+.testo5 h2{
+    color: #033832;
+font-family: Arial;
+font-size: 32px;
+font-style: bold;
+margin-right: 100px;
+margin-left: 0;
+
+
+
+
+} 
+
+.testo5 p{
+    color: #111111;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+margin-right: 100px;
+
+
+
+
+} .card2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 40px;
+    gap: 32px;
+} 
+
+.card-tex{
+    color: #EECE94;
+    font-family: Arial;
+    background-color: #387B5C;
+    margin: 0;
+    padding: 34px;
+    align-content: center;
+  
+   
+} 
+.card-tex h4{
+    color: #EECE94;
+
+    font-family:Arial;
+    font-size: 24px;
+    font-style: normal; 
+    margin-bottom: 0;
+  
+   
+} 
+.card-tex p{
+    color: #EECE94;
+    font-family:Arial;
+    font-size: 16px;
+    font-style: italic; 
+
+  
+   
+} .card2 h3{
+    color: #033832;
+font-family:Arial;
+font-size: 48px;
+font-style: normal;
+}.card2 h5{
+    font-size: 20px;
+    font-style: normal;
+font-family:Arial;
+color: #5F351F;
+
+}
+   
+
+
+
+.card2 img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 7%;
+
+} .card3{
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .info, .info2, .parchi, .parchi2,.parchi3,.parchi4{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 20px;
+
+    }
+
+    .testo, .img, .testo2, .img2, .img1, .testo1, .img3, .testo3, .img4, .testo4, .img5, .testo5, .svg {
+        width: 100%;
+        font-size: 20px;
+     
+    }
+
+    .card, .card1, .card2, .card3{
+        grid-template-columns: 1fr;
+        padding: 20px 20px;
+    
+    }
+
+   .testo h1, .testo2 h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    align-content: center;
+   }
+
+   .img svg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+   }
+    .img3, .img4{
+        width: 700px;
+        height: 400px;
+        object-fit: cover;
+        align-content: center;
+
+
+   } .img5 {
+height: auto;
+  padding: 20px  20px;
+
+   } .testo3 h2, .testo4 h2, .testo5 h2{
+    font-size: 20px;
+
+
+  
+   } .testo3 p, .testo4 p, .testo5 p {
+    font-size: 13px;
+  
+   } .img4{
+    padding-bottom: 40px;
+   } 
+
+   header{
+    gap: 5px;
+   flex-direction: column;
+   align-content: center;
+   justify-content: start;
+}
+
+header h2{
+    gap: 5px;
+    margin-left: 0;
+}
+   
+
+footer{
+    gap: 5px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: start;
+}
+footer h2{
+    gap: 5px;
+    margin-left: 30px;
+    
+}
+
+}
