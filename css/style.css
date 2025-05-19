@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: white;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img{
@@ -20,23 +20,44 @@ header{
     padding: 20px 20px;
     gap: 16px;
     color: #EECE94;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
+
+header h2 a{
+    color: #EECE94;
+    margin-left: 15px;
+  text-decoration: none;
+  text-transform: unset
+  
+    
+}
+
+h2 a:hover{
+      text-decoration: underline;
+    color: white;
+    text-decoration-thickness: 6px;
+    text-decoration-color: white;
+    
+}
+
+
 header nav ul{
     color: #EECE94;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 20px;
+    
 }
 
 header nav a{
     text-decoration: none;
     text-transform: unset;
     color: #EECE94;
+    
 
 }
 
@@ -61,7 +82,7 @@ nav a:hover{
 
 .testo h1{
     color: #033832;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 64px;
     font-style: normal;
     margin: auto;
@@ -71,7 +92,7 @@ nav a:hover{
  .testo p{
 
     color: #5F351F;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: normal;
 margin: auto;
@@ -97,7 +118,7 @@ margin: auto;
 
 .card h3{
     color: #EECE94;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     background-color: #387B5C;
     margin: 0;
@@ -107,7 +128,7 @@ margin: auto;
 }
 .card h3 a{
     color: #EECE94;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     text-decoration: none;
     text-transform: unset;
@@ -141,7 +162,7 @@ padding: 32px 40px;
 
 .testo1 h2{
     color: #EECE94;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 64px;
 font-style: bold;
 margin-bottom: 30px;
@@ -151,7 +172,7 @@ margin-top: 80px;
 
 .testo1 p{
     color: #EECE94;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 font-style: normal;
 margin-left: 10 px;
@@ -165,7 +186,7 @@ width: 300px;
     background-color: #033832;
     padding: 20px 40px;
     color: #EECE94;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .footer-content {
@@ -173,14 +194,14 @@ width: 300px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .footer-title {
     font-weight: bold;
     font-size: 18px;
     margin: 0;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
 
   }
   
@@ -189,7 +210,7 @@ width: 300px;
     color: #EECE94;
     text-decoration: none;
     font-weight: 500;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
 
   }
   
@@ -211,7 +232,7 @@ width: 300px;
 
 .testo2 h1{
     color: #033832;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 64px;
     font-style: bold;
     margin: auto;
@@ -222,7 +243,7 @@ width: 300px;
  .testo2 p{
 
     color: #5F351F;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: normal;
 margin: auto;
@@ -261,7 +282,7 @@ padding: 32px 40px;
 
 .testo3 h2{
     color: #EECE94;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 24px;
 font-style: bold;
 align-content: center;
@@ -271,7 +292,7 @@ margin-bottom: 5%;
 
 .testo3 p{
     color: #EECE94;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 16px;
 font-style: normal;
 align-content: center;
@@ -287,7 +308,7 @@ margin-right: 60px;
 
 }.card1 h2{
     color: #033832;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -295,7 +316,7 @@ line-height: normal;
    
 } .card1 h4{
     color: #5F351F;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -308,7 +329,7 @@ flex-shrink: 0;
 
 .card1 h3{
     color: #EECE94;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     background-color: #387B5C;
     margin: 0;
@@ -322,7 +343,7 @@ flex-shrink: 0;
 }
 .tex h3{
     color: #EECE94;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     background-color: #387B5C;
    margin-bottom: 0;
@@ -331,7 +352,7 @@ flex-shrink: 0;
     
 } .tex p{
     color: #EECE94;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 12px;
     background-color: #387B5C;
@@ -366,7 +387,7 @@ padding: 32px 40px;
 
 .testo4 h2{
     color: #033832;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 30px;
 font-style: bold;
 margin-bottom: 5% ;
@@ -377,7 +398,7 @@ align-content: center;
 
 .testo4 p{
     color: #111111;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 16px;
 font-style: normal;
 margin-left: 10 px;
@@ -414,7 +435,7 @@ padding: 32px 40px;
 
 .testo5 h2{
     color: #033832;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 32px;
 font-style: bold;
 margin-right: 100px;
@@ -427,7 +448,7 @@ margin-left: 0;
 
 .testo5 p{
     color: #111111;
-font-family: Arial;
+font-family: 'Times New Roman', Times, serif;
 font-size: 16px;
 font-style: normal;
 margin-right: 100px;
@@ -444,7 +465,7 @@ margin-right: 100px;
 
 .card-tex{
     color: #EECE94;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #387B5C;
     margin: 0;
     padding: 34px;
@@ -455,7 +476,7 @@ margin-right: 100px;
 .card-tex h4{
     color: #EECE94;
 
-    font-family:Arial;
+    font-family:'Times New Roman', Times, serif;
     font-size: 24px;
     font-style: normal; 
     margin-bottom: 0;
@@ -464,7 +485,7 @@ margin-right: 100px;
 } 
 .card-tex p{
     color: #EECE94;
-    font-family:Arial;
+    font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic; 
 
@@ -472,13 +493,15 @@ margin-right: 100px;
    
 } .card2 h3{
     color: #033832;
-font-family:Arial;
+font-family:'Times New Roman', Times, serif;
 font-size: 48px;
 font-style: normal;
-}.card2 h5{
+}
+
+.card2 h5{
     font-size: 20px;
     font-style: normal;
-font-family:Arial;
+font-family:'Times New Roman', Times, serif;
 color: #5F351F;
 
 }
@@ -538,7 +561,7 @@ color: #5F351F;
    }
 
    .img svg {
-    width: 40px;
+    max-width: 40px;
     height: 40px;
     object-fit: cover;
    }
